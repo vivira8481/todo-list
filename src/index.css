@@ -24,12 +24,13 @@ code {
 
  .center_div{
   width: 25%;
-  height: 80vh;
+  height: 100%;
   background-color: #f4f4f4;
   /* background: #f9d89c; */
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
   border-radius: 15px;
  }
+
 
  h1{
   color: white;
@@ -43,12 +44,12 @@ code {
 
  input{
   text-align: center;
-  height: 30px;
-  top: 10px;
+  height: 20px;
+  top: 5px;
   border: none;
   background: transparent;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   width: 60%;
   border-bottom: 2px solid #8566aa;
   outline: none;
@@ -72,18 +73,37 @@ code {
   background-color: #20bf6b;
  }
 
+ .cross{
+  min-height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #8566aa;
+  color: #fff;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  margin: 15px;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+
+ }
+ .cross:hover{
+  background-color: red;
+ }
+ 
+
  ol{
-  margin-top: 30px;
+  margin-top: 5px;
   /* margin-right: 50px; */
  }
 
  ol li{
   padding-left: 0px;
-  /* padding: 3px 0; */
+  /* padding: 0px 0px; */
   text-align: left;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 500;
-  min-height: 40px;
+  min-height: 10px;
   display: flex;
   align-items: center;
   color: #8566aa;
